@@ -5,6 +5,7 @@
 % \usepackage{amssymb}
 % \usepackage{xifthen}
 % \usepackage[fleqn]{amsmath}
+\usepackage{graphicx}
 \usetheme[hideothersubsections]{Berkeley}
 
 \title[Fizyka plazmy]{Energetyka Jądrowa++}
@@ -14,20 +15,26 @@ wiedzieli, że są one, a są one}
 \author{Dominik Stańczak}
 \date{20 grudnia 2016, Wstęp do Fizyki Jądrowej}
 
+\newcommand {\framedgraphic}[1] {
+    % \begin{frame}
+        \begin{center}
+            \includegraphics[width=\textwidth,height=0.8\textheight,keepaspectratio]{#1}
+        \end{center}
+    % \end{frame}
+}
 
 \begin{document}
   \frame{\titlepage}
 
   \section{Energetyka jądrowa w tę i we wtę}
+  \subsection{Energia wiązania}
+
   \begin{frame}
     \frametitle{Energia wiązania}
-    % TODO: wykresy
-    energia wiązania - czysty wykres
-    \pause
-    czerwona w lewo, zielona w prawo
-    \pause
-    niebieska w prawo, pomarańczowa w lewo
+    \framedgraphic{img/binding_energy.png}
   \end{frame}
+
+
   \begin{frame}
     \frametitle{Ile z was myśli, że...}
     \begin{itemize}[<+->]
@@ -37,16 +44,24 @@ wiedzieli, że są one, a są one}
       \item W ten sposób już teraz generowana energia?
       \item Widziało ostatnio coś, co używało tej zasady?
     \end{itemize}
-  \end{frame}
+   \end{frame}
+
+
   \begin{frame}
-    \frametitle{SŁOŃCE, MÓZGI KOCHANE!}
-    % TODO: zdjęcie słońca
-    \pause
-    % TODO: schemat fuzji HH
+    \frametitle{Odpowiedź jest jasna.}
+    \framesubtitle{Słońce, no lol.}
+    \framedgraphic{img/large_sun}
   \end{frame}
+  \begin{frame}[t]{Fuzja jądrowa wodoru!}
+    \framedgraphic{img/hh_fusion}
+  \end{frame}
+
+
   \begin{frame}
     \frametitle{Energia wiązania raz jeszcze}
-    % wykres
+    \begin{figure}
+      \framedgraphic{img/binding_energy}
+    \end{figure}
   \end{frame}
 
   \subsection{Prosty model - jakich energii potrzebujemy?}
