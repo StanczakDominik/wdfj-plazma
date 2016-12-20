@@ -1,11 +1,9 @@
 \documentclass{beamer}
 \usepackage{polski}
 \usepackage[utf8x]{inputenc}
-% \usepackage[unicode]{hyperref}
-% \usepackage{amssymb}
-% \usepackage{xifthen}
-% \usepackage[fleqn]{amsmath}
 \usepackage{graphicx}
+\usepackage{hyperref}
+
 \usetheme[hideothersubsections]{Berkeley}
 
 \title[Fizyka plazmy]{Energetyka Jądrowa++}
@@ -60,68 +58,77 @@ wiedzieli, że są one, a są one}
   \begin{frame}
     \frametitle{Energia wiązania raz jeszcze}
     \begin{figure}
-      \framedgraphic{img/binding_energy}
+      \framedgraphic{img/binding_energy_star}
     \end{figure}
   \end{frame}
 
   \subsection{Prosty model - jakich energii potrzebujemy?}
   \begin{frame}
     \frametitle{Mechanika fuzji jądrowej}
-    % wykres
+    \framedgraphic{img/energia1.png}
   \end{frame}
 
   \begin{frame}
     \frametitle{Mechanika (klasyczna) fuzji jądrowej}
-    % wykres
+    \framedgraphic{img/energia2.png}
   \end{frame}
 
 
   \begin{frame}
     \frametitle{Kicha}
     \framesubtitle{Klasyczna}
-    blah
     \pause
-    % TODO: zdjęcie kaszanki
+    \framedgraphic{img/kaszanka.jpg}
+  \end{frame}
+
+  \begin{frame}[t]{Cytacik}
+    We do not argue with the critic who urges that the stars are not hot enough for this process; we tell him to go and find a hotter place. - Arthur Eddington
+    \framedgraphic{img/Eddington}
   \end{frame}
 
 
   \begin{frame}
     \frametitle{Mechanika (kwantowa, znaczy lepsza) fuzji jądrowej}
-    % Tunelowanie kwantowe!
+    \framedgraphic{img/energia3.png}
   \end{frame}
 
   \section{Praktyczne sposoby na ogólne koncepty}
   \subsection{Duże ciśnienia, mniejsze temperatury}
   \begin{frame}
     \frametitle{Duże ciśnienia, małe temperatury}
-    % prasa z arbuzem
+    \framedgraphic{img/ananas}
   \end{frame}
 
   \begin{frame}
     \frametitle{Jak to jest w Słońcu?}
-    % solar core
+    \framedgraphic{img/wikipedia_solarcore}
   \end{frame}
 
   \begin{frame}
     \frametitle{Ile wyciskamy w praktyce?}
-    % record high
-    \pause
-    % sadface
+    \framedgraphic{img/pressure_record}
   \end{frame}
 
   \subsection{Duże temperatury, mniejsze ciśnienia}
   \begin{frame}
     \frametitle{Duże temperatury, mniejsze ciśnienia}
-    % ognisko
+    \framedgraphic{img/campfire.png}
   \end{frame}
 
   \begin{frame}
     \frametitle{Do ilu dochodzimy w praktyce?}
-    % tabelka wiki
-    \pause
-    % okejka
-    \pause
-    % logo git
+    \begin{columns}[c]
+      \column{.5\textwidth}
+      \framedgraphic{img/wiki_T}
+      \column{.5\textwidth}
+      \pause
+
+      \framedgraphic{img/facebook_like}
+
+      \pause
+
+      \framedgraphic{img/git_logo}
+    \end{columns}
   \end{frame}
 
   \section{Stany materii}
@@ -129,56 +136,66 @@ wiedzieli, że są one, a są one}
   \begin{frame}
     \frametitle{Podgrzewanie materii}
     \framesubtitle{Stan stały}
-    % obrazek
+    \framedgraphic{img/solid}
   \end{frame}
 
   \begin{frame}
     \frametitle{Podgrzewanie materii}
     \framesubtitle{Stan ciekły}
-    % obrazek
+    \framedgraphic{img/liquid}
   \end{frame}
 
 
   \begin{frame}
     \frametitle{Podgrzewanie materii}
     \framesubtitle{Stan gazowy}
-    % obrazek
-    \pause
-    % interakcja!!!!
+    \framedgraphic{img/gas}
   \end{frame}
-
 
   \begin{frame}
     \frametitle{Podgrzewanie materii}
-    \framesubtitle{Gdzie jeszcze mamy drogę ujścia dla energii?}
-    % obrazek
+    \framesubtitle{Stan gazowy}
+    \framedgraphic{img/gas2}
   \end{frame}
-
 
   \begin{frame}
     \frametitle{Podgrzewanie materii}
     \framesubtitle{Kompletny wykres przejść fazowych}
-    % obrazek
+    \framedgraphic{img/phasetransition}
   \end{frame}
-
 
   \begin{frame}
     \frametitle{Podgrzewanie materii}
-    \framesubtitle{Plazma}
-    % obrazek
-    \pause
-    % oddziaływania
+    \framesubtitle{Gdzie jeszcze mamy drogę ujścia dla energii?}
+    \framedgraphic{img/plasma_zoom}
   \end{frame}
+
+  \begin{frame}
+    \frametitle{Podgrzewanie materii}
+    \framesubtitle{Gdzie jeszcze mamy drogę ujścia dla energii?}
+    \framedgraphic{img/plasma_ionise}
+  \end{frame}
+
+  \begin{frame}[t]{Oddziaływania}
+    % TODO
+    \framedgraphic{img/plasma_ionise_novectors.png}
+  \end{frame}
+
+  \begin{frame}[t]{Oddziaływania}
+    \framesubtitle{Każdy z każdym!}
+      % TODO
+    \framedgraphic{img/plasma_ionise_vectors.png}
+  \end{frame}
+
 
 
   \begin{frame}
     \frametitle{Zoom out na skalę kosmiczną}
     99\% obserwowalnej materii we wszechświecie to plazma.
     \pause
-    % obrazek - gwiazdy
+    \framedgraphic{img/starrynight}
     \pause
-    To nie plazma jest taka wyjątkowa, to my, jako ~plazma, jesteśmy specjalni!
-    % obrazek - special snowflake
+    To nie plazma jest taka wyjątkowa, to my, jako nie(plazma), jesteśmy specjalni!
   \end{frame}
 
 \subsection{Przykłady występowania}
@@ -186,83 +203,115 @@ wiedzieli, że są one, a są one}
 \begin{frame}
   \frametitle{Zjonizowany gaz...}
   \framesubtitle{Może warto poszukać w powietrzu, c'nie?}
-  % obrazek błyskawicy
+  \framedgraphic{img/lightning.png}
 \end{frame}
 
-% TODO: dodac przykłady występowania plazmy ziemskiej
-\begin{frame}[t]{Świetlówki}[s]{światło dają, no}
-  body
+\begin{frame}[t]{Zorze polarne, magnetosfera}
+  \framedgraphic{img/AuroraNorway.jpg}
 \end{frame}
-%--- Next Frame ---%
 
-\subsection{Zakres parametrów}
-\begin{frame}[t]{Rozmiary}
-  body
+\begin{frame}[t]{Ogień}
+  \framedgraphic{img/campfire.png}
 \end{frame}
-%--- Next Frame ---%
-
-\begin{frame}[t]{Czas "życia"}
-  body
-\end{frame}
-%--- Next Frame ---%
-
-\begin{frame}[t]{Koncentracja cząstek}
-  body
-\end{frame}
-%--- Next Frame ---%
-
-\begin{frame}[t]{Siła pola magnetycznego}
-  body
-\end{frame}
-%--- Next Frame ---%
 
 \begin{frame}[t]{Magnetary}
-  body
+  \framedgraphic{img/Westerlund_magnetar.jpg}
 \end{frame}
-%--- Next Frame ---%
+
+\begin{frame}[t]{Świetlówki}
+  \framedgraphic{img/fluorescent}
+\end{frame}
 
 \section{Jak ugryźć plazmę?}
-\begin{frame}[t]{UWAGA}
-  PROSZĘ NIE GRYŹĆ PLAZMY.
+\begin{frame}[t]{Jak ugryźć plazmę?}
+  \framesubtitle{Z czym to się je?}
+  \pause
+    \begin{alertblock}{UWAGA!}
+    PROSZĘ NIE GRYŹĆ PLAZMY.
 
-  GRYZIENIE PLAZMY MOŻE SKUTKOWAĆ ŚMIERCIĄ.
+    GRYZIENIE PLAZMY MOŻE SKUTKOWAĆ ŚMIERCIĄ.
 
-  PRZED UGRYZIENIEM SKONSULTUJ SIĘ Z FIZYKIEM MEDYCZNYM LUB FARMACEUTĄ.
+    PRZED UGRYZIENIEM SKONSULTUJ SIĘ Z FIZYKIEM MEDYCZNYM LUB FARMACEUTĄ.
+  \end{alertblock}
 \end{frame}
-%--- Next Frame ---%
+
+
 \subsection{Opis teoretyczny}
 
-\begin{frame}[t]{Fizyka statystyczna}
-  body
-\end{frame}
-%--- Next Frame ---%
-
-
 \begin{frame}[t]{Elektrodynamika}
-  body
+  \begin{itemize}[<+->]
+    \item Ruch materii naładowanej - siła Lorentza jako podstawowa
+    \item Równania Maxwella - ewolucja pola elektromagnetycznego
+    \item Relatywistyka też potrafi być konieczna - całkiem wysokie energie, akceleratory
+  \end{itemize}
 \end{frame}
-%--- Next Frame ---%
 
 \begin{frame}[t]{Hydrodynamika}
-  body
-\end{frame}
-%--- Next Frame ---%
+  \begin{itemize}[<+->]
+    \item Kolektywne zachowania wielu cząstek
+    \item Równania Naviera-Stokesa
+      \begin{equation}
+      \frac{\partial(\rho e)}{\partial t} + \overrightarrow{\nabla}\cdot((\rho e + p)\overrightarrow{u}) = \overrightarrow{\nabla}\cdot(\overline{\overline{\tau}}\cdot\overrightarrow{u}) + \rho\overrightarrow{f}\overrightarrow{u} + \overrightarrow{\nabla}\cdot(\overrightarrow{\dot{q}})+r \end{equation}
 
-\begin{frame}[t]{Mechanika}
-  body
+    \item ... z wpiętymi równaniami Maxwella
+    \item \textbf{magnetohydrodynamika}
+  \end{itemize}
+
 \end{frame}
-%--- Next Frame ---%
+
+\begin{frame}[t]{Mechanika klasyczna i dynamika nieliniowa}
+  \begin{itemize}[<+->]
+    \item Często układy prawie zachowawcze (opór!)
+    \item Chaos deterministyczny
+    \item Niestabilności
+    \item Podwajanie okresu
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[t]{Mechanika kwantowa}
+  ... no w sumie to rzadko.
+  \framedgraphic{img/google_plasma.png}
+  \pause
+  \framedgraphic{img/google_qplasma.png}
+\end{frame}
+
+\begin{frame}[t]{Mechanika statystyczna}
+  \begin{itemize}[<+->]
+    \item Układy daleko od równowagi - fizyka nierównowagowa
+    \item Rzędu $10^{23}$ cząstek
+    \item Złożoność oddziaływań $n^2$
+    \item Mierzalne jedynie wartości średnie i ich odchylenia
+    \item Równanie Vlasova-Maxwella
+    \begin{align}
+      \frac{\partial f_e}{\partial t} + \mathbf {v}_e\cdot\nabla f_e &- e\left(\mathbf {E}+\frac{\mathbf {v_e}}{c}\times\mathbf {B}\right)\cdot\frac{\partial f_e}{\partial\mathbf {p}} = 0 \\
+      \frac{\partial f_i}{\partial t} + \mathbf {v}_i\cdot\nabla f_i &+ Z_i e\left(\mathbf {E}+\frac{\mathbf {v_i}}{c}\times\mathbf {B}\right)\cdot\frac{\partial f_i}{\partial\mathbf {p}} = 0 \\
+      \nabla\times\mathbf {B} &=\frac{4\pi\mathbf {j}}{c}+\frac{1}{c}\frac{\partial\mathbf {E}}{\partial t} \\
+      \nabla\times\mathbf {E} &=-\frac{1}{c}\frac{\partial\mathbf {B}}{\partial t} \\
+      \nabla\cdot\mathbf {E}  &=4\pi\rho \\
+      \nabla\cdot\mathbf {B}  &=0 \\
+    \end{align}
+  \end{itemize}
+\end{frame}
 
 \subsection{Symulacje komputerowe}
+% TODO: symulacje
 
 \subsection{Badania doświadczalne}
+\begin{frame}[t]{Badania doświadczalne}
+  \framesubtitle{RGDX}
+  \href{http://scied-web.pppl.gov/rgdx/}{\textbf{Remote Control Glow Discharge Experiment}}
+  na stronie Princeton Plasma Physics Laboratory
+
+  http://scied-web.pppl.gov/rgdx/
+\end{frame}
 
 
 \section{Zastosowania}
 \begin{frame}[t]{Po... co nam to?}
-  % po chuj mi las
+  \framedgraphic{img/nachujmilas.jpg}
 \end{frame}
-%--- Next Frame ---%
+
+% TODO: AKCELERATOR PLAZMOWY
 
 \subsection{Zastosowania przemysłowe}
 \begin{frame}[t]{title}
@@ -274,14 +323,11 @@ wiedzieli, że są one, a są one}
 \begin{frame}[t]{Tokamaki}
   body
 \end{frame}
-%--- Next Frame ---%
 
 
-%--- Next Frame ---%
 
 \section{Co tu jest do roboty?}
 \begin{frame}[t]{title}
   body
 \end{frame}
-%--- Next Frame ---%
 \end{document}
